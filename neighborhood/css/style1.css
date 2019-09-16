@@ -1,7 +1,7 @@
 body {
   background: green;
 
-
+}
 h1 {
   /* here I'm making the title not bold (by default headings are always bold)
      centered, larger, tighter leading, and with some bottom space or margin */
@@ -22,4 +22,3 @@ h2 {
   font-weight: bolder;
   color: #587E20;
   margin-top: 2em;
-}
