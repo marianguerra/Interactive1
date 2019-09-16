@@ -24,6 +24,4 @@ h2 {
   margin-top: 2em;
 }
 
-  img.small {
-    max-width: 50px;
-  }
+  <img src="Assets/walnut-creek.jpg"    max-width: "50px;"/>
