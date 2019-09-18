@@ -1,5 +1,6 @@
 body {
   background: green;
+font-family: 'Abril Fatface', cursive;
 
 }
 h1 {
@@ -26,5 +27,5 @@ h2 {
 
 
 img {
-  max-width: 100%;
+  max-width: 50%;
 }
