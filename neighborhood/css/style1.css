@@ -28,4 +28,5 @@ h2 {
 
 img {
   max-width: 50%;
+  transform: rotate(-90deg)
 }
