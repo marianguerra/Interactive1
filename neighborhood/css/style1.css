@@ -29,6 +29,7 @@ h2 {
 
 img {
   max-width: 50%;
+  height: 100;
   transform: 50%;
   image-align: center;
 }
