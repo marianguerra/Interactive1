@@ -2,3 +2,14 @@ body {
   background: pink;
   font-family: 'Abril Fatface', cursive;
 }
+
+h2 {
+  /* here I'm making my section headers very clear with a white background.
+     added some padding and removed the default bold again, and
+     added some top margin */
+  background: white;
+  padding: 0.5em;
+  font-weight: bolder;
+  color: #587E20;
+  margin-top: 2em;
+}
