@@ -32,6 +32,7 @@ img {
   height: 200;
   transform: 50%;
   object-position: center;
+  border: 4px #587E20
 }
 
 p {
