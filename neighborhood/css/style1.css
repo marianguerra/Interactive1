@@ -31,7 +31,7 @@ img {
   max-width: 50%;
   height: 200;
   transform: 50%;
-  image-align: center;
+  object-position: center;
 }
 
 p {
