@@ -2,7 +2,15 @@ body {
   background: pink;
   font-family: 'Abril Fatface', cursive;
 }
-
+h1 {
+  /* here I'm making the title not bold (by default headings are always bold)
+     centered, larger, tighter leading, and with some bottom space or margin */
+  font-weight: normal;
+  text-align: center;
+  font-size: 3em;
+  line-height: 1.1;
+  margin-bottom: 2em;
+}
 h2 {
   /* here I'm making my section headers very clear with a white background.
      added some padding and removed the default bold again, and
