@@ -26,14 +26,14 @@ h2 {
   text-align: center;
 }
 
-
-img {
-  max-width: 50%;
-  height: 30em;
-  transform: 50%;
-  object-position: center;
-  border: 4px #587E20
+img{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
+
+
+
 
 .center-align{
   text-align: center;
