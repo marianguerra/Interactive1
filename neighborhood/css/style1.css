@@ -35,6 +35,13 @@ img {
   border: 4px #587E20
 }
 
+
 p {
 text-align: center;
+}
+
+
+img.filter {
+  /*filter: brightness:(2.9)
+
 }
