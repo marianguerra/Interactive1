@@ -35,6 +35,11 @@ img {
   border: 4px #587E20
 }
 
+.center-align{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 p {
 text-align: center;
@@ -48,5 +53,4 @@ text-align: center;
    left: 0;
    x-index: 50000
    box-shadow 0 0 10px  rgba(0,255,0,.5);
-  
 }
