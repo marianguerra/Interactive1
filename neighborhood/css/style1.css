@@ -29,7 +29,7 @@ h2 {
 
 img {
   max-width: 50%;
-  height: 50em;
+  height: 30em;
   transform: 50%;
   object-position: center;
   border: 4px #587E20
@@ -38,10 +38,4 @@ img {
 
 p {
 text-align: center;
-}
-
-
-img.filter {
-  /*filter: brightness:(2.9)
-
 }
