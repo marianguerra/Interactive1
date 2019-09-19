@@ -39,3 +39,14 @@ img {
 p {
 text-align: center;
 }
+
+#header {
+   background: purple;
+   width: 75%
+   height: 60px;
+   position: fixed;
+   left: 0;
+   x-index: 50000
+   box-shadow 0 0 10px  rgba(0,255,0,.5);
+  
+}
