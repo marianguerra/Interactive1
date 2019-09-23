@@ -1,5 +1,5 @@
 body {
-  background: pink;
+  background: white;
   font-family: 'Abril Fatface', cursive;
 }
 h1 {
@@ -20,4 +20,9 @@ h2 {
   font-weight: bolder;
   color: #587E20;
   margin-top: 2em;
+}
+P.blocktext {
+margin-left: 100;
+margin-right: -50;
+width: 50em;
 }
