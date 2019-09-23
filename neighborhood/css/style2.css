@@ -1,6 +1,7 @@
 body {
   background: white;
   font-family: 'Abril Fatface', cursive;
+  width: 500px;
 }
 h1 {
   /* here I'm making the title not bold (by default headings are always bold)
@@ -22,7 +23,6 @@ h2 {
   margin-top: 2em;
 }
 P.blocktext {
-margin-left: 100;
-margin-right: -50;
-width: 50em;
+width: 300px;
+
 }
