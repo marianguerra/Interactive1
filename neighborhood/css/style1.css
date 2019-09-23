@@ -34,7 +34,13 @@ img{
   display: block;
 }
 
-
+div.fixed {
+  position: fixed;
+  bottom: 0;
+  right: 100;
+  width: 300px;
+  border: 3px solid #73AD21;
+}
 
 #header {
    background: purple;

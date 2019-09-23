@@ -2,6 +2,8 @@ body {
   background: white;
   font-family: 'Abril Fatface', cursive;
   width: 500px;
+  text-align: center;
+  
 
 }
 h1 {
@@ -28,7 +30,6 @@ h2 {
 img {
    vertical-align: middle;
 }
-
 
 p {
 text-align: center;
