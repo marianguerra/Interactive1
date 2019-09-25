@@ -9,6 +9,7 @@ body {
         background: black;
 }
 
+
 /* flag canvas */
 #canvas {
         width: 500px;
@@ -22,7 +23,7 @@ body {
     #circle {
             width: 150px;
             height: 150px;
-            background: red;
+            background: black;
             border-radius: 75px;
 
             /* position the circle in the center of the flag */
@@ -30,3 +31,13 @@ body {
             top: 75px;
             left: 175px;
     }
+    #rectangle {
+         width: 75px;
+         height: 200px;
+         background: green;
+
+         /* position the rectangle in the left of the flag*/
+         position: absolute;
+         top: 75px;
+         left: 75px;
+}
