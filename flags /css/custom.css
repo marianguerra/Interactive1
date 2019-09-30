@@ -1,0 +1,72 @@
+
+/* reset styles */
+* {
+        margin: 0px; padding: 0px;
+}
+
+/* make the background of the page black */
+body {
+        background: black;
+}
+
+
+/* flag canvas */
+#canvas {
+        width: 500px;
+        height: 300px;
+        position: relative;
+        background: white;
+      }
+      /* shapes */
+
+      #circle2 {
+            width: 120px;
+            height: 120px;
+            background-image: linear-gradient(#B55065,#66378D);
+            border-radius: 75px;
+
+            /* position the circle in the center of the flag */
+            position: absolute;
+            top: 90px;
+            left: 95px;
+      }
+
+      #circle {
+              width: 145px;
+              height: 145px;
+              background: white;
+              border-radius: 75px;
+
+              /* position the circle in the center of the flag */
+              position: absolute;
+              top: 75px;
+              left: 175px;
+
+      }
+
+
+      #rectanglea {
+           width: 500px;
+           height: 300px;
+           background-image: linear-gradient(#B55065, #66378D);
+}
+#rectangleb {
+     width: 200px;
+     height: 20px;
+     background: white;
+
+
+     position: absolute;
+     top: 30px;
+     left: 160px;
+}
+#rectanglec {
+     width: 20px;
+     height: 200px;
+     background: white;
+
+
+     position: absolute;
+     top: 30px;
+     left: 350px;
+}

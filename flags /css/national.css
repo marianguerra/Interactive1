@@ -20,24 +20,35 @@ body {
 
 /* shapes */
 
-    #circle {
-            width: 150px;
-            height: 150px;
-            background: black;
-            border-radius: 75px;
 
-            /* position the circle in the center of the flag */
-            position: absolute;
-            top: 75px;
-            left: 175px;
-    }
-    #rectangle {
-         width: 75px;
-         height: 200px;
-         background: green;
+
+    #rectanglea {
+         width: 150px;
+         height: 300px;
+         background: #013220;
 
          /* position the rectangle in the left of the flag*/
          position: absolute;
-         top: 75px;
-         left: 75px;
+         top: 0px;
+         left: 0px;
+}
+#rectangleb {
+     width: 160px;
+     height: 300px;
+     background: red;
+
+     /* position the rectangle in the left of the flag*/
+     position: absolute;
+     top: 0px;
+     left: 340px;
+}
+
+#Seal_of_the_Government_of_Mexico.svg.png"{
+  width: 2px;
+  height: 1px;
+
+  /* position the image in the center of the flag */
+  position: relative;
+  top: 5px;
+  left: 4px;
 }
