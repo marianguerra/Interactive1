@@ -22,13 +22,14 @@ body {
       #circle2 {
             width: 120px;
             height: 120px;
-            background-image: linear-gradient(#B55065,#66378D);
+            background-image: linear-gradient(#FFA500, #B55065,#66378D);
             border-radius: 75px;
 
             /* position the circle in the center of the flag */
             position: absolute;
-            top: 90px;
-            left: 95px;
+            top: 89px;
+            left: 188px;
+            z-index: 100;
       }
 
       #circle {
@@ -48,7 +49,7 @@ body {
       #rectanglea {
            width: 500px;
            height: 300px;
-           background-image: linear-gradient(#B55065, #66378D);
+           background-image: linear-gradient(#FFA500, #B55065, #66378D);
 }
 #rectangleb {
      width: 200px;
