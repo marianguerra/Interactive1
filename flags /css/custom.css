@@ -22,26 +22,50 @@ body {
       #circle2 {
             width: 120px;
             height: 120px;
-            background-image: linear-gradient(#FFA500, #B55065,#66378D);
+            background-image: linear-gradient(#B55065,#66378D,#FFA500);
             border-radius: 75px;
 
             /* position the circle in the center of the flag */
             position: absolute;
-            top: 89px;
-            left: 188px;
+            top: 97px;
+            left: 180px;
             z-index: 100;
-      }
+}
+
+@-webkit-keyframes changeColor {
+                0%   { -webkit-filter: hue-rotate(0deg)contrast(100%)saturate(0%); }
+                50%  { -webkit-filter: hue-rotate(360deg)contrast(500%)saturate(10000%); }
+                100% { -webkit-filter: hue-rotate(0deg)contrast(100%)saturate(0%); }
+
+}
+@-moz-keyframes changeColor {
+    0%   { -moz-filter: hue-rotate(0deg)contrast(100%)saturate(0%); }
+    50%  { -moz-filter: hue-rotate(360deg)contrast(500%)saturate(10000%); }
+    100% { -moz-filter: hue-rotate(0deg)contrast(100%)saturate(0%); }
+  }
+@-o-keyframes changeColor {
+    0%   { -o-filter: hue-rotate(0deg)contrast(100%)saturate(0%); }
+    50%  { -o-filter: hue-rotate(360deg)contrast(500%)saturate(10000%); }
+    100% { -o-filter: hue-rotate(0deg)contrast(100%)saturate(0%); }
+  }
+@keyframes changeColor {
+    0%   { filter: hue-rotate(0deg)contrast(100%)saturate(0%); }
+    50%  { filter: hue-rotate(360deg)contrast(500%)saturate(10000%); }
+    100% { filter: hue-rotate(0deg)contrast(100%)saturate(0%); }
+
+}
+
 
       #circle {
-              width: 145px;
-              height: 145px;
+              width: 150px;
+              height: 150px;
               background: white;
               border-radius: 75px;
 
               /* position the circle in the center of the flag */
               position: absolute;
-              top: 75px;
-              left: 175px;
+              top: 83px;
+              left: 165px;
 
       }
 

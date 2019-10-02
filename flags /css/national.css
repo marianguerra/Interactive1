@@ -1,54 +1,199 @@
 
 /* reset styles */
 * {
-        margin: 0px; padding: 0px;
+ margin: 0px; padding: 0px;
 }
 
 /* make the background of the page black */
 body {
-        background: black;
+ background: black;
 }
 
 
 /* flag canvas */
 #canvas {
-        width: 500px;
-        height: 300px;
-        position: relative;
-        background: white;
+ width: 500px;
+ height: 300px;
+ position: relative;
+ background: white;
 }
 
 /* shapes */
 
+#star1  {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 210px;
+  left: 180px;
+  z-index: 4;
+  rotate: 360;
+  -webkit-animation-name: rotate; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: .8s; /* Safari 4.0 - 8.0 */
+  -webkit-animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+  -webkit-animation-direction: alternate; /* Safari 4.0 - 8.0 */
+  -webkit-animation-timing-function: ease-in-out;
+  animation-name: rotate;
+  animation-duration: .8s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+}
 
+#star2 {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 219px;
+  left: 225px;
+  z-index: 4;
+  rotate: 360;
+  -webkit-animation-name: rotate; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: .8s; /* Safari 4.0 - 8.0 */
+  -webkit-animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+  -webkit-animation-direction: alternate; /* Safari 4.0 - 8.0 */
+  -webkit-animation-timing-function: ease-in-out;
+  animation-name: rotate;
+  animation-duration: .8s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+}
 
-    #rectanglea {
-         width: 150px;
-         height: 300px;
-         background: #013220;
+#star3 {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 60px;
+  left: 180px;
+  z-index: 4;
+  rotate: 360;
+  -webkit-animation-name: rotate; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: .8s; /* Safari 4.0 - 8.0 */
+  -webkit-animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+  -webkit-animation-direction: alternate; /* Safari 4.0 - 8.0 */
+  -webkit-animation-timing-function: ease-in-out;
+  animation-name: rotate;
+  animation-duration: .8s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+}
 
-         /* position the rectangle in the left of the flag*/
-         position: absolute;
-         top: 0px;
-         left: 0px;
+ #star4 {
+   width: 30px;
+   height: 30px;
+   position: absolute;
+   top: 50px;
+   left: 230px;
+   z-index: 4;
+   rotate: 360;
+   -webkit-animation-name: rotate; /* Safari 4.0 - 8.0 */
+   -webkit-animation-duration: .8s; /* Safari 4.0 - 8.0 */
+   -webkit-animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+   -webkit-animation-direction: alternate; /* Safari 4.0 - 8.0 */
+   -webkit-animation-timing-function: ease-in-out;
+   animation-name: rotate;
+   animation-duration: .8s;
+   animation-iteration-count: infinite;
+   animation-direction: alternate;
+   animation-timing-function: ease-in-out;
+ }
+
+ #star5 {
+   width: 30px;
+   height: 30px;
+   position: absolute;
+   top: 60px;
+   left: 280px;
+   z-index: 4;
+   rotate: 360;
+   -webkit-animation-name: rotate; /* Safari 4.0 - 8.0 */
+   -webkit-animation-duration: .8s; /* Safari 4.0 - 8.0 */
+   -webkit-animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+   -webkit-animation-direction: alternate; /* Safari 4.0 - 8.0 */
+   -webkit-animation-timing-function: ease-in-out;
+   animation-name: rotate;
+   animation-duration: .8s;
+   animation-iteration-count: infinite;
+   animation-direction: alternate;
+   animation-timing-function: ease-in-out;
+ }
+
+ #star6 {
+   width: 30px;
+   height: 30px;
+   position: absolute;
+   top: 213px;
+   left: 280px;
+   z-index: 4;
+   rotate: 360;
+   -webkit-animation-name: rotate; /* Safari 4.0 - 8.0 */
+   -webkit-animation-duration: .8s; /* Safari 4.0 - 8.0 */
+   -webkit-animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+   -webkit-animation-direction: alternate; /* Safari 4.0 - 8.0 */
+   -webkit-animation-timing-function: ease-in-out;
+   animation-name: rotate;
+   animation-duration: .8s;
+   animation-iteration-count: infinite;
+   animation-direction: alternate;
+   animation-timing-function: ease-in-out;
+ }
+
+#rectanglea {
+    width: 166px;
+    height: 300px;
+    background: #013220;
+
+    /* position the rectangle in the left of the flag*/
+    position: absolute;
+    top: 0px;
+    left: 0px;
 }
 #rectangleb {
-     width: 160px;
-     height: 300px;
-     background: red;
+    width: 160px;
+    height: 300px;
+    background: red;
 
      /* position the rectangle in the left of the flag*/
-     position: absolute;
-     top: 0px;
-     left: 340px;
+    position: absolute;
+    top: 0px;
+    left: 340px;
 }
 
-#Seal_of_the_Government_of_Mexico.svg.png"{
-  width: 2px;
-  height: 1px;
-
+#logo{
+  position: absolute;
+  z-index: 100;
   /* position the image in the center of the flag */
-  position: relative;
-  top: 5px;
-  left: 4px;
+  position: absolute;
+  top: 87px;
+  left: 180px;
+  z-index: 100;
+}
+
+.logo hover-scale {
+  transition: 2s transform;
+}
+.logo hover-scale:hover {
+  transform: scale(1.5);
+}
+}
+
+#container{
+  width: 5%;
+  height: 5%;
+  margin: 5%;
+  background: blue;
+
+}
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes rotate {
+  0% { transform: rotate(0); }
+  100% { transform: rotate(180deg); }
+}
+/* Standard syntax */
+@keyframes rotate {
+  0% { transform: rotate(0); }
+  100% { transform: rotate(180deg); }
+}
 }
