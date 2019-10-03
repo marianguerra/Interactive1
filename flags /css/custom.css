@@ -37,24 +37,6 @@ body {
         100% { -moz-filter: hue-rotate(0deg)contrast(100%)saturate(0%); }
 }
 
-@-webkit-keyframes changeColor {
-
-
-}
-@-moz-keyframes changeColor {
-
-  }
-@-o-keyframes changeColor {
-    0%   { -o-filter: hue-rotate(0deg)contrast(100%)saturate(0%); }
-    50%  { -o-filter: hue-rotate(360deg)contrast(500%)saturate(10000%); }
-    100% { -o-filter: hue-rotate(0deg)contrast(100%)saturate(0%); }
-  }
-@keyframes changeColor {
-    0%   { filter: hue-rotate(0deg)contrast(100%)saturate(0%); }
-    50%  { filter: hue-rotate(360deg)contrast(500%)saturate(10000%); }
-    100% { filter: hue-rotate(0deg)contrast(100%)saturate(0%); }
-
-}
 
 #circle {
      width: 150px;

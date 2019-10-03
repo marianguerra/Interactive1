@@ -167,8 +167,7 @@ body {
   top: 87px;
   left: 180px;
   z-index: 100;
-   transition: 5s transform;
-  transform: scale(1.5);
+  
 }
 
 #container{
