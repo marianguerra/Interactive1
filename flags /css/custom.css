@@ -29,12 +29,6 @@ body {
         top: 97px;
         left: 180px;
         z-index: 100;
-        0%   { -webkit-filter: hue-rotate(0deg)contrast(100%)saturate(0%); }
-        50%  { -webkit-filter: hue-rotate(360deg)contrast(500%)saturate(10000%); }
-        100% { -webkit-filter: hue-rotate(0deg)contrast(100%)saturate(0%); }
-        0%   { -moz-filter: hue-rotate(0deg)contrast(100%)saturate(0%); }
-        50%  { -moz-filter: hue-rotate(360deg)contrast(500%)saturate(10000%); }
-        100% { -moz-filter: hue-rotate(0deg)contrast(100%)saturate(0%); }
 }
 
 
