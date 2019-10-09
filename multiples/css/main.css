@@ -9,21 +9,22 @@ body {
 }
 #desktop {
     display: inline;
-    color: white;
+    color: black;
 }
 #tablet,
 #mobile,
 #print {
     display: none;
 }
+
 /* tablet */
 @media (min-width: 670px) and (max-width: 1024px) {
     body {
-        background: grey;
+        background: black;
     }
     #tablet {
         display: inline;
-        color: white;
+        color: black;
     }
     #desktop,
     #mobile,
@@ -31,6 +32,12 @@ body {
         display: none;
     }
 }
+    img{
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+}
+
 /* mobile */
 @media (max-width: 670px) {
     body {
@@ -46,6 +53,9 @@ body {
         display: none;
     }
 }
+
+
+
 /* print */
 @media print {
     body {
