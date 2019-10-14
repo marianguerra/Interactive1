@@ -22,13 +22,24 @@ body {
 #circle2 {
         width: 120px;
         height: 120px;
-        background-image: linear-gradient(#B55065,#66378D,#FFA500);
+
+        background-image: white;
+
         border-radius: 75px;
         /* position the circle in the center of the flag */
         position: absolute;
         top: 97px;
         left: 180px;
         z-index: 100;
+        -webkit-animation-name: blink; /* Safari 4.0 - 8.0 */
+ -webkit-animation-duration: .6s; /* Safari 4.0 - 8.0 */
+ -webkit-animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+ -webkit-animation-direction: alternate; /* Safari 4.0 - 8.0 */
+ animation-name: blink;
+ animation-duration: 3s;
+ animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
 }
 
 
@@ -43,12 +54,6 @@ body {
      left: 165px;
 }
 
-#rectanglea {
-     width: 500px;
-     height: 300px;
-     background-image: linear-gradient(#FFA500, #B55065, #66378D);
-}
-
 #rectangleb {
      width: 200px;
      height: 20px;
@@ -56,14 +61,6 @@ body {
      position: absolute;
      top: 30px;
      left: 160px;
-     -webkit-animation-name: translate; /* Safari 4.0 - 8.0 */
-    -webkit-animation-duration: 1.6s; /* Safari 4.0 - 8.0 */
-    -webkit-animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
-    -webkit-animation-timing-function: linear;
-    animation-name: translate;
-    animation-duration: 1.6s;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
 }
 
 #rectanglec {
@@ -73,29 +70,35 @@ body {
      position: absolute;
      top: 30px;
      left: 350px;
-     -webkit-animation-name: translate; /* Safari 4.0 - 8.0 */
-    -webkit-animation-duration: 1.6s; /* Safari 4.0 - 8.0 */
-    -webkit-animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
-    -webkit-animation-timing-function: linear;
-    animation-name: translate;
-    animation-duration: 1.6s;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
 }
+
+#rectanglea {
+     width: 500px;
+     height: 300px;
+     background-image: white;
+     -webkit-animation-name: blink; /* Safari 4.0 - 8.0 */
+-webkit-animation-duration: .4s; /* Safari 4.0 - 8.0 */
+-webkit-animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+-webkit-animation-direction: alternate; /* Safari 4.0 - 8.0 */
+animation-name: blink;
+animation-duration: 5s;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+}
+}
+
+
+
 /* Safari 4.0 - 8.0 */
-@-webkit-keyframes translate {
-  0% { transform: translate(0px, 0px); }
-  25% { transform: translate(0px, 60px); }
-  50% { transform: translate(60px, 60px); }
-  75% { transform: translate(60px, 0px); }
-  100% { transform: translate(0px, 0px); }
+@-webkit-keyframes blink {
+ from { background-color: #B55065; }
+ to { background-color: #66378D; }
+ to {background-color: #FFA500; }
 }
 
 /* Standard syntax */
-@keyframes translate {
-  0% { transform: translate(0px, 0px); }
-  25% { transform: translate(0px, 60px); }
-  50% { transform: translate(60px, 60px); }
-  75% { transform: translate(60px, 0px); }
-  100% { transform: translate(0px, 0px); }
+@keyframes blink {
+ from { background-color: #66378D; }
+ to { background-color: #B55065; }
+ to {background-color: #FFA500; }
 }
