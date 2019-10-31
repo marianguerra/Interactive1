@@ -1,0 +1,7 @@
+
+.grid-item {
+  background-color: lightblue;
+  grid-template-columns: auto auto auto;
+   grid-template-rows: 200px 300px 200px;
+   grid-gap: 20px 40px;
+}

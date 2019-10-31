@@ -1,3 +1,21 @@
+html{
+scroll-behavior: smooth;
+}
+#navigation {
+  position: sticky;
+  background-color: green;
+  top: 0px;
+  padding-left: 100px;
+  display: block;
+  align-self: center;
+  height: 30px;
+  width: 100%;
+}
+
+li{
+  display: inline;
+  padding-left: 10px;
+}
 body {
   background: #89CFF0;
 font-family: 'Abril Fatface', cursive;
@@ -12,7 +30,10 @@ h1 {
   line-height: 1.1;
   margin-bottom: 2em;
 }
-
+ p{
+   padding-left: 100px;
+   padding-right: 100px;
+ }
 
 h2 {
   /* here I'm making my section headers very clear with a white background.
@@ -42,4 +63,19 @@ img{
    left: 0;
    x-index: 50000
    box-shadow 0 0 10px  rgba(0,255,0,.5);
+}
+#green{
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -80px;
+  z-index: -1;
+
+}
+#tree{
+  z-index: 1000;
+  background: none;
+  display: block;
+
 }

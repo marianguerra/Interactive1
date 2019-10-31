@@ -1,0 +1,28 @@
+html{
+  scroll-hebavior: smooth;
+}
+#canvas {
+        width: 2074px;
+        height: 1499px;
+        position: relative;
+        background: white;
+      }
+
+#navigation{
+  position: sticky;
+  background-color: purple;
+  top 0 px;
+  padding-left: 100px:
+  display: block;
+  align-self: center;
+  height: 30px;
+  width: 100;
+}
+
+li{
+  display: inline;
+  padding-left:10px;
+}
+body {
+  font-family: 'Abril Fatface', cursive;
+}
