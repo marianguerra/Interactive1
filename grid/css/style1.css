@@ -1,7 +1,31 @@
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+}
 
 .grid-item {
-  background-color: lightblue;
+  background-color: green;
   grid-template-columns: auto auto auto;
-   grid-template-rows: 200px 300px 200px;
-   grid-gap: 20px 40px;
+  grid-template-rows: 200px 300px 200px;
+  grid-gap: 20px 40px 40px;
+}
+#grid-container {
+  background: rgba (0,0,0.15);
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: 200px 50px 25px;
+ grid-row-gap: 20px 50px 25px;
+grid-column-gap: 20px;
+}
+
+grid-item{
+  background: rgba(0,0,0,.5);
+}
+
+#item-1 {
+  border: 2px solid red:
+  grid-column-start: 11;
+  grid-column-end: 7;
+  grid-row-end: 3;
+  grid-row-start: 1;
 }
