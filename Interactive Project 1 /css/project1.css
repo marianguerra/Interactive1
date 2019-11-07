@@ -3,8 +3,8 @@ html{
 }
 #canvas {
         width: 2074px;
-        height: 1499px;
-        position: relative;
+        height: 1999px;
+        position: absolute;
         background: white;
       }
 
@@ -25,4 +25,92 @@ li{
 }
 body {
   font-family: 'Abril Fatface', cursive;
+  position:
+}
+
+#container{
+
+}
+
+#desc1{
+  position: absolute;
+  top: 50%;
+  left: 74%;
+  transform: translate(-50%, -50%);
+}
+#paintapp{
+  background-image: center;
+  position: absolute;
+  top: -18%;
+  left: 65%;
+  transform: translate(-30%, 42%);
+  width: 200;
+}
+#screensaver{
+  background-image: center;
+}
+
+#p2007{
+relative: 60%;
+
+}
+#mao{
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  transform: translate(-120%, 580%);
+}
+#genghis{
+  position: absolute;
+  top: -121%;
+  left: 90%;
+  transform: translate(-80%, 80%);
+  height: 350px;
+  width: 100;
+}
+#desc2{
+  position: absolute;
+  top: 110%;
+  left: 50%;
+  transform: translate(-50%, 40%);
+}
+
+
+#p2009{
+relative: 60%;
+position: absolute;
+}
+#desc3{
+  position: absolute;
+  top: 60%;
+  left: 60%;
+  transform: translate(-40%, 70%);
+}
+#penguin{
+  position: absolute;
+  top: 20%;
+  left: 55%;
+  transform: translate(-70%, 80%);
+  height: 280px;
+  width: 290px;
+}
+
+#map{
+  margin-top: 1000px;
+}
+#p2011{
+  relative: 60%;
+  position: absolute;
+}
+#desc4{
+  position:absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(40%,70%)
+}
+#poptropica_character{
+  position: absolute;
+  top: 10%;
+  left: 40%;
+  transform: translate(-140%, 80%);
 }
