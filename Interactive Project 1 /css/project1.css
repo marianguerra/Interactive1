@@ -25,33 +25,39 @@ li{
 }
 body {
   font-family: 'Abril Fatface', cursive;
-  position:
 }
 
-#myHeader{
-position: absolut;
+#MyHeader{
+position: absolute;
 }
 
 #container{
-
+background-image:
+position: relative;
+background-size: cover
+width: 100%;
+background-repeat: no-repeat;
 }
 
 #desc1{
   position: absolute;
-  top: 50%;
-  left: 74%;
-  transform: translate(-50%, -50%);
+  z-index: 1000;
+  margin-left: -30px;
+  margin-top: 20%;
+  padding bottom: 50%;
+  left: 68%;
+  top: 0%;
+  transform: translate(-10%, -90%);
 }
-#paintapp{
-  background-image: center;
+#garfieldtypingpal{
   position: absolute;
-  top: -18%;
-  left: 65%;
-  transform: translate(-30%, 42%);
-  width: 200;
+  left: 15%;
+  top: 90%;
+  transform: translate(-10%, -90%);
 }
 #screensaver{
   background-image: center;
+  width: 100%;
 }
 
 #p2007{
@@ -64,17 +70,12 @@ relative: 60%;
   left: 50%;
   transform: translate(-120%, 580%);
 }
-#genghis{
-  position: absolute;
-  top: -121%;
-  left: 90%;
-  transform: translate(-80%, 80%);
-  height: 350px;
-  width: 100;
-}
+
+
+
 #desc2{
   position: absolute;
-  top: 110%;
+  top: 104%;
   left: 50%;
   transform: translate(-50%, 40%);
 }
@@ -86,9 +87,10 @@ position: absolute;
 }
 #desc3{
   position: absolute;
-  top: 60%;
-  left: 60%;
-  transform: translate(-40%, 70%);
+  left: 80%;
+  z-index: 1000;
+  top: 50%;
+  transform: translate(-100%, -170%);
 }
 #penguin{
   position: absolute;
@@ -99,22 +101,157 @@ position: absolute;
   width: 290px;
 }
 
+#speechbubble{
+  position: absolute;
+  width: 490px;
+  height: 480px;
+  left: 111%;
+  transform: translate(-190%)
+}
+
+#puffle{
+  position: absolute;
+  top: 35%;
+  left: 18%;
+  transform: translate(-70%, 80%);
+}
+
+#character{
+  position: absolute;
+  top: 300%;
+  left: 45%;
+transform: translate(-130%, 100%);
+}
+#blip{
+  position: absolute;
+  top: 280%;
+  left: 85%;
+  transform: translate(-70%, 70%);
+}
+
+#medal{
+  position: absolute;
+  top: 250%;
+  left: 55%;
+  transform: translate(-135%, 100%)
+}
+#speechbubble1{
+  position: absolute;
+  top: 268%;
+  left: 36%;
+  transform: translate(-70%, 75%);
+}
+
 #map{
-  margin-top: 1000px;
+  margin-top: 865px;
 }
 #p2011{
   relative: 60%;
   position: absolute;
 }
 #desc4{
-  position:absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(40%,70%)
-}
-#poptropica_character{
   position: absolute;
-  top: 10%;
-  left: 40%;
-  transform: translate(-140%, 80%);
+  z-index: 1000;
+  top: 280%;
+  left: 50%;
+  margin-right: 25%;
+  transform: translate(-130%, 170%)
+}
+
+#dory{
+  position: absolute;
+  top: 570%;
+  left: 80%;
+  transform: translate(40%,90%)
+  -webkit-animation-name: translate; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 1.6s; /* Safari 4.0 - 8.0 */
+  -webkit-animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+  -webkit-animation-timing-function: linear;
+  animation-name: translate;
+  animation-duration: 4.6s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+#squid{
+  position: absolute;
+  top: 570%;
+  left: 50%;
+  transform: translate(40%,80%)
+  -webkit-animation-name: translate; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 1.6s; /* Safari 4.0 - 8.0 */
+  -webkit-animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+  -webkit-animation-timing-function: linear;
+  animation-name: translate;
+  animation-duration: 4.6s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+
+#desc5{
+  position:absolute;
+  top: 400%;
+  left: 10%;
+  margin-right: 20%;
+  transform: translate(10%,170%)
+}
+
+#squarefish{
+  position: absolute;
+  top: 370%;
+  left: 20%;
+  transform: translate(40%,80%)
+  -webkit-animation-name: translate; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 1.6s; /* Safari 4.0 - 8.0 */
+  -webkit-animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+  -webkit-animation-timing-function: linear;
+  animation-name: translate;
+  animation-duration: 4.6s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+#pinkfish{
+  position: absolute;
+  top: 350%;
+  left: 20%;
+  transform: translate(40%,80%)
+  -webkit-animation-name: translate; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 1.6s; /* Safari 4.0 - 8.0 */
+  -webkit-animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+  -webkit-animation-timing-function: linear;
+  animation-name: translate;
+  animation-duration: 4.6s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+#yellow{
+  position: absolute;
+  top: 430%;
+  left: 20%;
+  transform: translate(40%,80%)
+  -webkit-animation-name: translate; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 1.6s; /* Safari 4.0 - 8.0 */
+  -webkit-animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+  -webkit-animation-timing-function: linear;
+  animation-name: translate;
+  animation-duration: 4.6s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes translate {
+  0% { transform: translate(0px, 0px); }
+  25% { transform: translate(0px, 60px); }
+  50% { transform: translate(60px, 60px); }
+  75% { transform: translate(60px, 0px); }
+  100% { transform: translate(0px, 0px); }
+
+  /* Standard syntax */
+@keyframes translate {
+  0% { transform: translate(0px, 0px); }
+  25% { transform: translate(0px, 60px); }
+  50% { transform: translate(60px, 60px); }
+  75% { transform: translate(60px, 0px); }
+  100% { transform: translate(0px, 0px); }
 }
