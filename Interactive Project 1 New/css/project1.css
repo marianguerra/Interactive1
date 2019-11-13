@@ -24,3 +24,17 @@ html{
 #navigation a {
   color: white;
 }
+
+li{
+  display: inline;
+  padding-left:10px;
+}
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size-adjust: 20;
+}
+
+#MyHeader{
+position: fixed;
+color: white;
+}
