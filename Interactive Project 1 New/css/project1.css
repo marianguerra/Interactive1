@@ -1,0 +1,26 @@
+html{
+  scroll-hebavior: smooth;
+}
+#canvas {
+  width: 2074px;
+  height: 1999px;
+  position: absolute;
+  background: white;
+      }
+
+#navigation{
+  position: fixed;
+  background-color: purple;
+  color: white;
+  z-index: 10000;
+  font-size: 150px;
+  top: 0px;
+  padding-left: 100px:
+  display: block;
+  align-self: center;
+  height: 320px;
+  width: 100;
+}
+#navigation a {
+  color: white;
+}
