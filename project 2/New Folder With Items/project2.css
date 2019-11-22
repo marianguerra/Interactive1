@@ -2,11 +2,11 @@ body {
 
 }
 .letter {
-	width: 200%;
-	height: 300%;
+	width: 200px;
+	height: 300px;
 	position: relative;
 	display: inline-block;
-	margin: 50%;
+	margin: 50px;
 }
 
 /* pieces */
@@ -21,21 +21,21 @@ classes
 */
 
 .vertical {
-	width: 24%;
-	height: 100%;
-	background: #040404;
+	width: 24px;
+	height: 100px;
+	background: #black;
 	position: absolute;
 }
 
 .horizontal {
-	width: 100%;
-	height: 60%;
+	width: 100px;
+	height: 60px;
 	background: black;
 	position: absolute;
 }
 
 
 #a .vertical.stem.7.blocks {
-  left: 175%;
-	top: 127%;
+  left: 175px;
+	top: 127px;
 }
