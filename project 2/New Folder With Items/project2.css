@@ -3,14 +3,23 @@ body {
 }
 
 .letter {
-	width: 200%;
-	height: 300%;
+	width: 200px;
+	height: 300px;
 	position: relative;
 	display: inline-block;
-	margin: 50%;
+	margin: 50px;
 }
 
 /* pieces */
+
+/* a */
+
+/*
+style the left
+vertical stroke in
+'a' by combining
+classes
+*/
 
 .vertical {
 	width: 24%;
