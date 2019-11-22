@@ -3,11 +3,11 @@ body {
 }
 
 .letter {
-	width: 200px;
-	height: 300px;
+	width: 200%;
+	height: 300%;
 	position: relative;
 	display: inline-block;
-	margin: 50px;
+	margin: 50%;
 }
 
 /* pieces */
