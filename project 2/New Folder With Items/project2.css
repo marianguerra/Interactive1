@@ -1,7 +1,6 @@
 body {
 
-
-
+}
 .letter {
 	width: 200%;
 	height: 300%;
@@ -39,5 +38,4 @@ classes
 #a .vertical.stem.7.blocks {
   left: 175%;
 	top: 127%;
-}
 }
