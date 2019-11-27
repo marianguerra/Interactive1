@@ -30,6 +30,7 @@ html{
 
 
 
+
     #navigation{
       position: fixed;
       background-color: purple;
@@ -390,7 +391,8 @@ html{
 
     /* mobile */
     @media (max-width: 500px) {
-     <p style= "font-size: 2vw;"
+      p{font-size:2vw;}
+
 
     @media screen and (min-width: 400px) {
       div.example {
@@ -553,7 +555,7 @@ html{
 
 /* mobile */
 @media screen and (max-width: 600px) {
-       <p style= "font-size: 2vw;"
+      p{font-size:2vw;}
 }
 @media screen and (min-width: 400px) {
         div.example {

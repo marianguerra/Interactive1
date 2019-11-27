@@ -1,42 +1,1163 @@
-body {
 
+        :root { --font-color: black; }
+        body { font-size: 8px; }
+
+
+
+        .a {
+          	position: relative;
+          	display: inline-block;
+          	vertical-align: bottom;
+      		  width: 6em;
+          	height: 7em;
+      	}
+        .a span:nth-of-type(1) {
+      		position: absolute;
+          	display: block;
+          	width: 6em;
+          	height: 1em;
+          	top: 0;
+          	left: 0;
+          	background: var(--font-color);
+      	}
+      	.a span:nth-of-type(2) {
+      		position: absolute;
+          	display: block;
+          	width: 1em;
+          	height: 7em;
+          	top: 0;
+          	right: 0;
+          	background: var(--font-color);
+      	}
+      	.a span:nth-of-type(3) {
+      		position: absolute;
+          	display: block;
+          	width: 6em;
+          	height: 1em;
+          	bottom: 0;
+          	left: 0;
+          	background: var(--font-color);
+      	}
+      	.a span:nth-of-type(4) {
+      		position: absolute;
+          	display: block;
+          	width: 1em;
+          	height: 5em;
+          	bottom: 0;
+          	left: 0;
+          	background: var(--font-color);
+      	}
+      	.a span:nth-of-type(5) {
+      		position: absolute;
+          	display: block;
+          	width: 4em;
+          	height: 1em;
+          	top: 2em;
+          	left: 0;
+          	background: var(--font-color);
+      	}
+      	.a span:nth-of-type(6) {
+      		position: absolute;
+          	display: block;
+          	width: 1em;
+          	height: 3em;
+          	top: 2em;
+          	right: 2em;
+          	background: var(--font-color);
+      	}
+      	.a span:nth-of-type(7) {
+      		position: absolute;
+          	display: block;
+          	width: 2em;
+          	height: 1em;
+          	bottom: 2em;
+          	right: 2em;
+          	background: var(--font-color);
+      	}
+
+
+
+
+
+        .b {
+      		position: relative;
+            display: inline-block;
+          	vertical-align: bottom;
+            width: 6em;
+            height: 11em;
+      	}
+        .b span:nth-of-type(1) {
+      		position: absolute;
+          	display: block;
+          	width: 1em;
+          	height: 11em;
+          	top: 0;
+          	left: 0;
+          	background: var(--font-color);
+      	}
+      	.b span:nth-of-type(2) {
+      		position: absolute;
+          	display: block;
+          	width: 6em;
+          	height: 1em;
+          	bottom: 0;
+          	left: 0;
+          	background: var(--font-color);
+      	}
+      	.b span:nth-of-type(3) {
+      		position: absolute;
+          	display: block;
+          	width: 1em;
+          	height: 6em;
+          	bottom: 0;
+          	right: 0;
+          	background: var(--font-color);
+      	}
+      	.b span:nth-of-type(4) {
+      		position: absolute;
+          	display: block;
+          	width: 4em;
+          	height: 1em;
+          	bottom: 5em;
+          	right: 0;
+          	background: var(--font-color);
+      	}
+      	.b span:nth-of-type(5) {
+      		position: absolute;
+          	display: block;
+          	width: 1em;
+          	height: 3em;
+          	bottom: 3em;
+          	left: 2em;
+          	background: var(--font-color);
+      	}
+      	.b span:nth-of-type(6) {
+      		position: absolute;
+          	display: block;
+          	width: 2em;
+          	height: 1em;
+          	bottom: 3em;
+          	left: 2em;
+          	background: var(--font-color);
+      	}
+
+
+
+
+				.c {
+					position: relative;
+						display: inline-block;
+						vertical-align: bottom;
+						width: 6em;
+						height: 6em;
 }
-.letter {
-	width: 200px;
-	height: 300px;
+
+.c span:nth-of-type(1){
+	position: absolute;
+		display: inline-block;
+		vertical-align: bottom;
+		width: 5em;
+		height: 1em;
+		background: var(--font-color);
+}
+
+.c span:nth-of-type(2){
+	position: absolute;
+		display: inline-block;
+		vertical-align: bottom;
+		width: 1em;
+		height: 6em;
+		background: var(--font-color);
+}
+
+.c span:nth-of-type(3){
+	position: absolute;
+	display: inline-block;
+	vertical-align: bottom;
+	width: 5em;
+	height: 1em;
+	bottom: 0em;
+	background: var(--font-color);
+}
+
+
+
+.d {
+	position: relative;
+		display: inline-block;
+		vertical-align: bottom;
+		width: 6em;
+		height: 11em;
+	}
+
+	.d span:nth-of-type(1){
+		position: absolute;
+		display: inline-block;
+		vertical-align: bottom;
+		width: 1em;
+		height: 6em;
+		bottom: 0em;
+		background: var(--font-color);
+	}
+
+	.d span:nth-of-type(2){
+		position: absolute;
+		display: inline-block;
+		vertical-align: bottom;
+		width: 6em;
+		height: 1em;
+		bottom: 0em;
+		background: var(--font-color);
+	}
+	.d span:nth-of-type(3){
+		position: absolute;
+		display: inline-block;
+		vertical-align: bottom;
+		width: 4em;
+		height: 1em;
+		bottom: 5em;
+		background: var(--font-color);
+	}
+	.d span:nth-of-type(4){
+		position: absolute;
+		display: inline-block;
+		vertical-align: bottom;
+		width: 1em;
+		height: 3em;
+		right: 2em;
+		bottom: 3em;
+		background: var(--font-color);
+	}
+	.d span:nth-of-type(5){
+		position: absolute;
+		display: inline-block;
+		vertical-align: bottom;
+		width: 2em;
+		height: 1em;
+    bottom: 3em;
+		right:  2em;
+		background: var(--font-color);
+	}
+
+	.d span:nth-of-type(6){
+		position: absolute;
+		display: inline-block;
+		vertical-align: bottom;
+		width: 1em;
+		height: 11em;
+		bottom: 0em;
+		right: 0em;
+		background: var(--font-color);
+	}
+
+	.e {
+		position: relative;
+			display: inline-block;
+			vertical-align: bottom;
+			width: 6em;
+			height: 6em;
+		}
+
+		.e span:nth-of-type(1){
+			position: absolute;
+			display: inline-block;
+			vertical-align: bottom;
+			width: 1em;
+			height: 6em;
+			bottom: 0em;
+			background: var(--font-color);
+		}
+
+		.e span:nth-of-type(2){
+			position: absolute;
+			display: inline-block;
+			vertical-align: bottom;
+			width: 5em;
+			height: 1em;
+			right: 0em;
+			background: var(--font-color);
+		}
+		.e span:nth-of-type(3){
+			position: absolute;
+			display: inline-block;
+			vertical-align: bottom;
+			width: 6em;
+			height: 1em;
+			bottom: 0em;
+			background: var(--font-color);
+		}
+		.e span:nth-of-type(4){
+	 		position: absolute;
+	 		display: inline-block;
+	 		vertical-align: bottom;
+	 		width: 1em;
+	 		height: 3em;
+	 		bottom: 3em;
+	 		right: 0em;
+	 		background: var(--font-color);
+	 	}
+		.e span:nth-of-type(5){
+			position: absolute;
+			display: inline-block;
+			vertical-align: bottom;
+			width: 4em;
+			height: 1em;
+			bottom: 3em;
+			right: 0em;
+			background: var(--font-color);
+		}
+
+
+      	.f {
+      		position: relative;
+          	margin-bottom: -3em;
+            display: inline-block;
+          	vertical-align: bottom;
+            width: 8em;
+            height: 14em;
+      	}
+      	.f span:nth-of-type(1) {
+      		position: absolute;
+          	display: block;
+          	width: 3em;
+          	height: 1em;
+          	bottom: 0;
+          	left: 0;
+          	background: var(--font-color);
+      	}
+      	.f span:nth-of-type(2) {
+      		position: absolute;
+          	display: block;
+          	width: 1em;
+          	height: 14em;
+          	bottom: 0;
+          	left: 3em;
+          	background: var(--font-color);
+      	}
+      	.f span:nth-of-type(3) {
+      		position: absolute;
+          	display: block;
+          	width: 5em;
+          	height: 1em;
+          	top: 5em;
+          	left: 1em;
+          	background: var(--font-color);
+      	}
+      	.f span:nth-of-type(4) {
+      		position: absolute;
+          	display: block;
+          	width: 5em;
+          	height: 1em;
+          	top: 0;
+          	left: 3em;
+          	background: var(--font-color);
+      	}
+      	.f span:nth-of-type(5) {
+      		position: absolute;
+          	display: block;
+          	width: 1em;
+          	height: 3em;
+          	top: 0;
+          	right: 0;
+          	background: var(--font-color);
+      	}
+      	.f span:nth-of-type(6) {
+      		position: absolute;
+          	display: block;
+          	width: 3em;
+          	height: 1em;
+          	top: 2em;
+          	right: 0;
+          	background: var(--font-color);
+      	}
+
+				.g {
+					position: relative;
+						margin-bottom: -3em;
+						display: inline-block;
+						vertical-align: bottom;
+						width: 8em;
+						height: 9em;
+}
+
+.g span:nth-of-type(1) {
+position: absolute;
+display: block;
+width: 1em;
+height: 6em;
+right: 7em;
+background: var(--font-color);
+}
+
+.g span:nth-of-type(2) {
+position: absolute;
+display: block;
+width: 7em;
+height: 1em;
+background: var(--font-color);
+}
+.g span:nth-of-type(3) {
+position: absolute;
+display: block;
+width: 4em;
+height: 1em;
+right: 3em;
+bottom:3em;
+background: var(--font-color);
+}
+
+.g span:nth-of-type(4) {
+position: absolute;
+display: block;
+width: 1em;
+height: 3em;
+right: 2em;
+bottom:3em;
+background: var(--font-color);
+}
+.g span:nth-of-type(5) {
+position: absolute;
+display: block;
+width: 2em;
+height: 1em;
+right: 3em;
+bottom: 5em;
+background: var(--font-color);
+}
+
+.g span:nth-of-type(6) {
+position: absolute;
+display: block;
+width: 1em;
+height: 9em;
+right:  0em;
+bottom: 0em;
+background: var(--font-color);
+}
+
+.g span:nth-of-type(7) {
+position: absolute;
+display: block;
+width: 4em;
+height: 1em;
+background: var(--font-color);
+}
+
+.g span:nth-of-type(8) {
+position: absolute;
+display: block;
+width: 4em;
+height: 1em;
+background: var(--font-color);
+}
+
+.h {
+	position: relative;
+		display: inline-block;
+		vertical-align: bottom;
+		width: 7em;
+		height: 10em;
+}
+		.h span:nth-of-type(1) {
+			position: absolute;
+				display: block;
+				width: 1em;
+				height: 12em;
+				bottom: 0em;
+				right: 6em;
+				background: var(--font-color);
+		}
+		.h span:nth-of-type(2) {
+			position: absolute;
+				display: block;
+				width: 6em;
+				height: 1em;
+				bottom: 5em;
+        right: 0em;
+				background: var(--font-color);
+		}
+		.h span:nth-of-type(3) {
+			position: absolute;
+				display: block;
+				width: 1em;
+				height: 6em;
+				bottom: 0em;
+				right: 0em;
+				background: var(--font-color);
+		}
+
+		.i {
+			position: relative;
+				display: inline-block;
+				vertical-align: bottom;
+				width: 1em;
+				height: 6em;
+		}
+
+		.i span:nth-of-type(1) {
+			position: absolute;
+				display: block;
+				width: 1em;
+				height: 6em;
+				bottom: 0em;
+				background: var(--font-color);
+		}
+
+		.j {
+			position: relative;
+				display: inline-block;
+				vertical-align: bottom;
+				width: 7em;
+				height: 13em;
+		}
+
+		.j span:nth-of-type(1) {
+			position: absolute;
+				display: block;
+				width: 1em;
+				height: 7em;
+				bottom: 0em;
+				right: 1em;
+				background: var(--font-color);
+		}
+
+.k {
 	position: relative;
 	display: inline-block;
-	color: #000000;
-	margin: 50px;
+  vertical-align: bottom;
+	width: 7em;
+	height: 13em;
+
 }
-
-/* pieces */
-
-/* a */
-
-/*
-style the left
-vertical stroke in
-'a' by combining
-classes
-*/
-
-.vertical {
-	width: 24px;
-	height: 100px;
-	background: #000000;
+.k span:nth-of-type(1) {
 	position: absolute;
+		display: block;
+		width: 1em;
+		height: 11em;
+		bottom: 0em;
+		right: 4em;
+		background: var(--font-color);
 }
 
-.horizontal {
-	width: 100px;
-	height: 60px;
-	background: black;
+.k span:nth-of-type(2) {
 	position: absolute;
+		display: block;
+		width: 3em;
+		height: 1em;
+		bottom: 5em;
+		right: 1em;
+		background: var(--font-color);
+}
+.k span:nth-of-type(3) {
+	position: absolute;
+		display: block;
+		width: 2em;
+		height: 1em;
+		bottom: 10em;
+		right: 5em;
+		background: var(--font-color);
+}
+.k span:nth-of-type(4) {
+	position: absolute;
+		display: block;
+		width: 1em;
+		height: 5em;
+		bottom: 0em;
+		right: 1em;
+		background: var(--font-color);
+}
+.k span:nth-of-type(5) {
+	position: absolute;
+		display: block;
+		width: 1em;
+		height: 1em;
+		bottom: 0em;
+		right: 0em;
+		background: var(--font-color);
+}
+.k span:nth-of-type(6) {
+	position: absolute;
+		display: block;
+		width: 2em;
+		height: 1em;
+		bottom: 7em;
+		right: 2em;
+		background: var(--font-color);
+}
+
+.k span:nth-of-type(7) {
+	position: absolute;
+		display: block;
+		width: 1em;
+		height: 2em;
+		bottom: 7em;
+		right: 2em;
+		background: var(--font-color);
+}
+.l {
+	position: relative;
+	display: inline-block;
+  vertical-align: bottom;
+	width: 1em;
+	height: 11em;
+}
+.l span:nth-of-type(1) {
+	position: absolute;
+		display: block;
+		width: 1em;
+		height: 11em;
+		bottom: 0em;
+		right: 0em;
+		background: var(--font-color);
+}
+.m {
+	position: relative;
+	display: inline-block;
+	width: 8em;
+	height: 7em;
+}
+
+.m span:nth-of-type(1) {
+	position: absolute;
+		display: block;
+		width: 1em;
+		height: 7em;
+		bottom: 0em;
+		right: 5em;
+		background: var(--font-color);
+}
+.m span:nth-of-type(2) {
+	position: absolute;
+		display: block;
+		width: 3em;
+		height: 1em;
+		bottom: 6em;
+		right: 5em;
+		background: var(--font-color);
+}
+.m span:nth-of-type(3) {
+	position: absolute;
+		display: block;
+		width: 1em;
+		height: 6em;
+		bottom: 0em;
+		right: 0em;
+		background: var(--font-color);
+}
+.m span:nth-of-type(4) {
+	position: absolute;
+		display: block;
+		width: 2em;
+		height: 1em;
+		bottom: 5em;
+		right: 3em;
+		background: var(--font-color);
 }
 
 
-#a .vertical.stem.7.blocks {
-  left: 175px;
-	top: 127px;
+.m span:nth-of-type(5) {
+	position: absolute;
+		display: block;
+		width: 1em;
+		height: 2em;
+		bottom: 4em;
+		right: 3em;
+		background: var(--font-color);
+}
+
+.m span:nth-of-type(6) {
+	position: absolute;
+		display: block;
+		width: 1em;
+		height: 2em;
+		bottom: 4em;
+		right: 3em;
+		background: var(--font-color);
+}
+
+
+.n {
+	position: relative;
+	display: inline-block;
+	width: 9em;
+	height: 7em;
+}
+
+.n span:nth-of-type(1) {
+	position: absolute;
+		display: block;
+		width: 1em;
+		height: 7em;
+		bottom: 0em;
+		right: 5em;
+		background: var(--font-color);
+}
+
+.n span:nth-of-type(2) {
+	position: absolute;
+		display: block;
+		width: 4em;
+		height: 1em;
+		top: 1em;
+		right: 1em;
+		background: var(--font-color);
+}
+
+.n span:nth-of-type(3) {
+	position: absolute;
+		display: block;
+		width: 1em;
+		height: 6em;
+		top: 1em;
+		right: 0em;
+		background: var(--font-color);
+}
+
+.n span:nth-of-type(4) {
+	position: absolute;
+		display: block;
+		width: 2em;
+		height: 1em;
+		top: 1em;
+		right: 0em;
+		background: var(--font-color);
+}
+.o {
+	position: relative;
+	display: inline-block;
+	width: 6em;
+	height: 6em;
+}
+.o span:nth-of-type(1) {
+	position: absolute;
+		display: block;
+		width: 1em;
+		height: 6em;
+		top: 0em;
+		left: 0em;
+		background: var(--font-color);
+}
+.o span:nth-of-type(2) {
+	position: absolute;
+		display: block;
+		width: 6em;
+		height: 1em;
+		top: 0em;
+		left: 0em;
+		background: var(--font-color);
+}
+.o span:nth-of-type(3) {
+	position: absolute;
+		display: block;
+		width: 1em;
+		height: 6em;
+		top: 0em;
+		left: 6em;
+		background: var(--font-color);
+}
+
+.o span:nth-of-type(4) {
+	position: absolute;
+		display: block;
+		width: 4em;
+		height: 1em;
+		bottom: 0em;
+		right: 0em;
+		background: var(--font-color);
+}
+.o span:nth-of-type(5) {
+	position: absolute;
+		display: block;
+		width: 1em;
+		height: 3em;
+		bottom: 1em;
+		left: 2em;
+		background: var(--font-color);
+}
+.o span:nth-of-type(6) {
+	position: absolute;
+		display: block;
+		width: 1em;
+		height: 1em;
+		bottom: 3em;
+		left: 3em;
+		background: var(--font-color);
+}
+.p {
+	position: relative;
+	display: inline-block;
+  margin-bottom: -4em;
+	width: 10em;
+	height: 10em;
+}
+.p span:nth-of-type(1) {
+	position: absolute;
+		display: block;
+		width: 1em;
+		height: 10em;
+		top: 0em;
+		left: 3em;
+		background: var(--font-color);
+}
+.p span:nth-of-type(2) {
+	position: absolute;
+		display: block;
+		width: 6em;
+		height: 1em;
+		top: 0em;
+		left: 3em;
+		background: var(--font-color);
+}
+.p span:nth-of-type(3) {
+	position: absolute;
+		display: block;
+		width: 1em;
+		height: 6em;
+		top: 0em;
+		left: 9em;
+		background: var(--font-color);
+}
+
+.p span:nth-of-type(4) {
+	position: absolute;
+		display: block;
+		width: 4em;
+		height: 1em;
+		bottom: 4em;
+		right: 1em;
+		background: var(--font-color);
+}
+.p span:nth-of-type(5) {
+	position: absolute;
+		display: block;
+		width: 1em;
+		height: 3em;
+		bottom: 5em;
+		left: 5em;
+		background: var(--font-color);
+}
+.p span:nth-of-type(6) {
+	position: absolute;
+		display: block;
+		width: 1em;
+		height: 1em;
+		bottom: 7em;
+		left: 6em;
+		background: var(--font-color);
+}
+
+.q {
+	position: relative;
+	display: inline-block;
+  margin-bottom: -4em;
+	width: 9em;
+	height: 11em;
+}
+
+.q span:nth-of-type(1) {
+position: absolute;
+display: block;
+width: 1em;
+height: 6em;
+right: 7em;
+top:  1em;
+background: var(--font-color);
+}
+
+.q span:nth-of-type(2) {
+position: absolute;
+display: block;
+width: 7em;
+height: 1em;
+right: 1em;
+top: 1em;
+background: var(--font-color);
+}
+.q span:nth-of-type(3) {
+position: absolute;
+display: block;
+width: 4em;
+height: 1em;
+right: 3em;
+bottom: 4em;
+background: var(--font-color);
+}
+
+.q span:nth-of-type(4) {
+position: absolute;
+display: block;
+width: 1em;
+height: 3em;
+right: 3em;
+bottom:4em;
+background: var(--font-color);
+}
+.q span:nth-of-type(5) {
+position: absolute;
+display: block;
+width: 2em;
+height: 1em;
+right: 3em;
+bottom: 7em;
+background: var(--font-color);
+}
+.q span:nth-of-type(6) {
+position: absolute;
+display: block;
+width: 1em;
+height: 10em;
+right: 1em;
+bottom: 0em;
+background: var(--font-color);
+}
+.r {
+	position: relative;
+	display: inline-block;
+	width: 9em;
+	height: 11em;
+}
+
+.r span:nth-of-type(1) {
+position: absolute;
+display: block;
+width: 1em;
+height: 7em;
+left: 3em;
+bottom: 0em;
+background: var(--font-color);
+}
+.r span:nth-of-type(2) {
+position: absolute;
+display: block;
+width: 5em;
+height: 1em;
+left: 4em;
+top: 5em;
+background: var(--font-color);
+}
+.r span:nth-of-type(3) {
+position: absolute;
+display: block;
+width: 2em;
+height: 1em;
+left: 1em;
+top: 4em;
+background: var(--font-color);
+}
+.r span:nth-of-type(4) {
+position: absolute;
+display: block;
+width: 1em;
+height: 1em;
+left: 1em;
+top: 5em;
+background: var(--font-color);
+}
+.s {
+	position: relative;
+	display: inline-block;
+	width: 7em;
+	height: 11em;
+}
+
+.s span:nth-of-type(1) {
+position: absolute;
+display: block;
+width: 5em;
+height: 1em;
+left: 1em;
+top: 5em;
+background: var(--font-color);
+}
+.s span:nth-of-type(2) {
+position: absolute;
+display: block;
+width: 1em;
+height: 1em;
+right: 1em;
+top: 6em;
+background: var(--font-color);
+}
+.s span:nth-of-type(3) {
+position: absolute;
+display: block;
+width: 1em;
+height: 2em;
+left: 1em;
+top: 6em;
+background: var(--font-color);
+}
+.s span:nth-of-type(4) {
+position: absolute;
+display: block;
+width: 5em;
+height: 1em;
+left: 1em;
+top: 8em;
+background: var(--font-color);
+}
+.s span:nth-of-type(5) {
+position: absolute;
+display: block;
+width: 1em;
+height: 2em;
+right: 1em;
+top: 9em;
+background: var(--font-color);
+}
+.s span:nth-of-type(6) {
+position: absolute;
+display: block;
+width: 5em;
+height: 1em;
+right: 1em;
+top: 10em;
+background: var(--font-color);
+}
+.t {
+	position: relative;
+	display: inline-block;
+	width: 6em;
+	height: 11em;
+}
+.t span:nth-of-type(1) {
+  position: absolute;
+  display: block;
+  height: 11em;
+  width: 1em;
+  left: 2em;
+  background: var(--font-color);
+}
+.t span:nth-of-type(2) {
+  position: absolute;
+  display: block;
+  height: 1em;
+  width: 3em;
+  left: 3em;
+  bottom: 0em;
+  background: var(--font-color);
+  }
+  .t span:nth-of-type(3) {
+    position: absolute;
+    display: block;
+    height: 1em;
+    width: 5em;
+    left: 0em;
+    bottom: 6em;
+    background: var(--font-color);
+    }
+    .t span:nth-of-type(4) {
+      position: absolute;
+      display: block;
+      height: 1em;
+      width: 1em;
+      left: 1em;
+      top: 0em;
+      background: var(--font-color);
+      }
+      .u {
+      	position: relative;
+      	display: inline-block;
+      	width: 6em;
+      	height: 6em;
+      }
+.u span:nth-of-type(1) {
+  position: absolute;
+  display: block;
+  height: 6em;
+  width: 1em;
+  bottom: 0em;
+  background: var(--font-color);
+}
+
+.u span:nth-of-type(2) {
+  position: absolute;
+  display: block;
+  background: var(--font-color);
+  width: 6em;
+  bottom: 0em;
+  height: 1em;
+}
+
+.u span:nth-of-type(3) {
+  position: absolute;
+  display: block;
+  background: var(--font-color);
+  width: 1em;
+  height: 6em;
+  right: 0em;
+  bottom: 0em;
+}
+.y {
+  position: relative;
+  display: inline-block;
+  		margin-bottom: -3em;
+  width: 9em;
+  height: 10em;
+}
+
+.y span:nth-of-type(1) {
+  position: absolute;
+  display: block;
+  background: var(--font-color);
+  width: 1em;
+  height: 6em;
+  left: 2em;
+  bottom: 3em;
+}
+
+.y span:nth-of-type(2) {
+  position: absolute;
+  display: block;
+  background: var(--font-color);
+  width: 2em;
+  height: 1em;
+  left: 0em;
+  top: 1em;
+}
+.y span:nth-of-type(3) {
+  position: absolute;
+  display: block;
+  background: var(--font-color);
+  width: 1em;
+  height: 3em;
+  left: 0em;
+  top: 1em;
+}
+.y span:nth-of-type(4) {
+  position: absolute;
+  display: block;
+  background: var(--font-color);
+  width: 3em;
+  height: 1em;
+  left: 3em;
+  bottom: 3em;
+}
+.y span:nth-of-type(5) {
+  position: absolute;
+  display: block;
+  background: var(--font-color);
+  width: 1em;
+  height: 9em;
+  left: 6em;
+  bottom: 0em;
+}
+
+.y span:nth-of-type(6) {
+  position: absolute;
+  display: block;
+  background: var(--font-color);
+  width: 4em;
+  height: 1em;
+  left: 2em;
+  bottom: 0em;
+}
+.y span:nth-of-type(7) {
+  position: absolute;
+  display: block;
+  background: var(--font-color);
+  width: 6em;
+  height: 1em;
+  left: 2em;
+  bottom: 0em;
 }
