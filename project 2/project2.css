@@ -435,21 +435,7 @@ bottom: 0em;
 background: var(--font-color);
 }
 
-.g span:nth-of-type(7) {
-position: absolute;
-display: block;
-width: 4em;
-height: 1em;
-background: var(--font-color);
-}
 
-.g span:nth-of-type(8) {
-position: absolute;
-display: block;
-width: 4em;
-height: 1em;
-background: var(--font-color);
-}
 
 .h {
 	position: relative;
@@ -549,6 +535,27 @@ background: var(--font-color);
         left:  1em;
         background: var(--font-color);
     }
+
+    .j span:nth-of-type(5) {
+      position: absolute;
+        display: block;
+        width: 2em;
+        height: 1em;
+        top: 0em;
+        right:  1em;
+        background: var(--font-color);
+    }
+    .j span:nth-of-type(6) {
+      position: absolute;
+        display: block;
+        width: 1em;
+        height: 2em;
+        top: -1em;
+        right:  2em;
+        background: var(--font-color);
+    }
+
+
 .k {
 	position: relative;
 	display: inline-block;
@@ -740,16 +747,25 @@ background: var(--font-color);
 		right: 0em;
 		background: var(--font-color);
 }
-
 .n span:nth-of-type(4) {
 	position: absolute;
 		display: block;
 		width: 2em;
 		height: 1em;
-		top: 1em;
-		right: 0em;
+		top: 0em;
+		left: 1em;
 		background: var(--font-color);
 }
+.n span:nth-of-type(5) {
+	position: absolute;
+		display: block;
+		width: 1em;
+		height: 1em;
+		top: 1em;
+		left: 1em;
+		background: var(--font-color);
+}
+
 .o {
 	position: relative;
 	display: inline-block;
@@ -1191,6 +1207,22 @@ background: var(--font-color);
       bottom: 4em;
       right: 2em;
 }
+.x {
+  position: relative;
+  display: inline-block;
+  width: 10em;
+  height: 7em;
+}
+
+.x span:nth-of-type(1) {
+      position: absolute;
+      display: block;
+      background-color: var(--font-color);
+      width: 7em;
+      height: 1em;
+      bottom: 4em;
+      right: 2em;
+}
 
 .y {
   position: relative;
@@ -1257,6 +1289,30 @@ background: var(--font-color);
   bottom: 0em;
 }
 .y span:nth-of-type(7) {
+  position: absolute;
+  display: block;
+  background: var(--font-color);
+  width: 6em;
+  height: 1em;
+  left: 2em;
+  bottom: 0em;
+}
+.z {
+  position: relative;
+  display: inline-block;
+  width: 6em;
+  height: 6em;
+}
+.z span:nth-of-type(1) {
+  position: absolute;
+  display: block;
+  background: var(--font-color);
+  width: 6em;
+  height: 1em;
+  left: 2em;
+  top: 0em;
+}
+.z span:nth-of-type(2) {
   position: absolute;
   display: block;
   background: var(--font-color);
