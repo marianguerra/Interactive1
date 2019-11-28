@@ -371,7 +371,7 @@
           	background: var(--font-color);
       	}
 
-				.g {
+	.g {
 					position: relative;
 						margin-bottom: -4em;
 						display: inline-block;
@@ -434,6 +434,16 @@ right:  1em;
 bottom: 0em;
 background: var(--font-color);
 }
+
+.g span:nth-of-type(7) {
+position: absolute;
+display: block;
+width: 6em;
+height: 1em;
+bottom: 0em;
+background: var(--font-color);
+}
+
 
 
 
@@ -555,6 +565,16 @@ background: var(--font-color);
         background: var(--font-color);
     }
 
+    .j span:nth-of-type(7) {
+      position: absolute;
+        display: block;
+        width: 1em;
+        height: 2em;
+        top: -1em;
+        right:  3em;
+        background: var(--font-color);
+    }
+
 
 .k {
 	position: relative;
@@ -648,6 +668,7 @@ background: var(--font-color);
 .m {
 	position: relative;
 	display: inline-block;
+  vertical-align: bottom;
 	width: 8em;
 	height: 7em;
 }
@@ -714,6 +735,7 @@ background: var(--font-color);
 .n {
 	position: relative;
 	display: inline-block;
+  vertical-align: bottom;
 	width: 9em;
 	height: 7em;
 }
@@ -769,6 +791,7 @@ background: var(--font-color);
 .o {
 	position: relative;
 	display: inline-block;
+  vertical-align: bottom;
 	width: 6em;
 	height: 6em;
 }
@@ -831,6 +854,7 @@ background: var(--font-color);
 	position: relative;
 	display: inline-block;
   margin-bottom: -4em;
+  vertical-align: bottom;
 	width: 10em;
 	height: 10em;
 }
@@ -893,6 +917,7 @@ background: var(--font-color);
 .q {
 	position: relative;
 	display: inline-block;
+  vertical-align: bottom;
   margin-bottom: -4em;
 	width: 9em;
 	height: 11em;
@@ -957,6 +982,7 @@ background: var(--font-color);
 .r {
 	position: relative;
 	display: inline-block;
+  vertical-align: bottom;
 	width: 9em;
 	height: 11em;
 }
@@ -1000,6 +1026,7 @@ background: var(--font-color);
 .s {
 	position: relative;
 	display: inline-block;
+  vertical-align: bottom;
 	width: 7em;
 	height: 11em;
 }
@@ -1061,6 +1088,7 @@ background: var(--font-color);
 .t {
 	position: relative;
 	display: inline-block;
+  vertical-align: bottom;
 	width: 6em;
 	height: 11em;
 }
@@ -1102,6 +1130,7 @@ background: var(--font-color);
       .u {
       	position: relative;
       	display: inline-block;
+        vertical-align: bottom;
       	width: 6em;
       	height: 6em;
       }
@@ -1137,6 +1166,7 @@ background: var(--font-color);
 .w {
   position: relative;
   display: inline-block;
+  vertical-align: bottom;
   width: 12em;
   height: 6em;
 }
@@ -1210,6 +1240,7 @@ background: var(--font-color);
 .x {
   position: relative;
   display: inline-block;
+  vertical-align: bottom;
   width: 10em;
   height: 7em;
 }
@@ -1227,7 +1258,8 @@ background: var(--font-color);
 .y {
   position: relative;
   display: inline-block;
-  		margin-bottom: -3em;
+  vertical-align: bottom;
+  margin-bottom: -3em;
   width: 9em;
   height: 10em;
 }
@@ -1300,6 +1332,7 @@ background: var(--font-color);
 .z {
   position: relative;
   display: inline-block;
+  vertical-align: bottom;
   width: 6em;
   height: 6em;
 }
@@ -1320,4 +1353,23 @@ background: var(--font-color);
   height: 1em;
   left: 2em;
   bottom: 0em;
+}
+
+.z span:nth-of-type(3) {
+  position: absolute;
+  display: inline-block;
+  background: var(--font-color);
+  bottom: 3em;
+  width: 1em;
+  height: 2em;
+  left: 7em;
+}
+.z span:nth-of-type(4) {
+  position: absolute;
+  display: block;
+  background: var(--font-color);
+  bottom: 5em;
+  width: 2em;
+  height: 1em;
+  left: 7em;
 }
