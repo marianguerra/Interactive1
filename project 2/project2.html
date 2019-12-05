@@ -7,37 +7,97 @@
     	<link rel="stylesheet" href="project2.css" type="text/css" />
     <style>
         :root { --font-color: black; }
-        body { font-size: 8px; }
-  </style>
+		body { width: 100%; margin: 100px auto; }
+        h1 { font-size: 10vw; margin-bottom: -35vw; }
+		h2 { font-size: 2vw; margin-left: 17vw; text-align: center; }
+    h1:hover { transform: scale(1, 2); }
+		h2 > span:nth-of-type(2) { top: 8vw; }
+        p { font-size: 8px; margin-top: 20vw; }
+  	</style>
+    <script>
+/*************************************************************/
+const spans = new Map();
+spans.set("a", 7);
+spans.set("b", 6);
+spans.set("c", 3);
+spans.set("d", 6);
+spans.set("e", 5);
+spans.set("f", 6);
+spans.set("g", 9);
+spans.set("h", 3);
+spans.set("i", 5);
+spans.set("j", 6);
+spans.set("k", 8);
+spans.set("l", 1);
+spans.set("m", 9);
+spans.set("n", 5);
+spans.set("o", 5);
+spans.set("p", 8);
+spans.set("q", 8);
+spans.set("r", 5);
+spans.set("s", 6);
+spans.set("t", 4);
+spans.set("u", 5);
+spans.set("v", 5);
+spans.set("w", 7);
+spans.set("x", 13);
+spans.set("y", 10);
+spans.set("z", 7);
+spans.set("_1", 3);
+spans.set("_2", 8);
+spans.set("_3", 7);
+spans.set("_4", 3);
+spans.set("_5", 7);
+spans.set("_6", 6);
+spans.set("_7", 2);
+spans.set("_8", 9);
+spans.set("_9", 6);
+spans.set("_0", 6);
+spans.set("period", 5);
+spans.set("", 4);
+spans.set("_!", 5);
+spans.set("_?", 7);
+
+
+
+document.addEventListener("DOMContentLoaded", function(){
+
+	for (let textElem of document.querySelectorAll(".maya_fontface")){
+		addFontface(textElem);
+	}
+
+});
+
+function addFontface(textElem){
+	let html = "";
+  	for (let letter of textElem.textContent.replace(/\s+/g, " ").trim()){
+    	if (letter === " ") html += addSpace();
+      	else html += addLetter(letter);
+    }
+  	textElem.innerHTML = html;
+}
+
+function addSpace(){
+	return '<span class="space"></span>';
+}
+
+function addLetter(letter){
+  	if (!spans.has(letter)){
+    	if (spans.has("_" + letter)) letter = "_" + letter;
+      	else return "";
+    }
+  	let numberOfSpans = spans.get(letter);
+	let html = `<span class="${letter}">`;
+  	html += Array(numberOfSpans).fill("<span></span>").join("");
+  	html += "</span>";
+  	return html;
+}
+/*************************************************************/
+  	</script>
 </head>
 <body>
-    <span class="a"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span>
-    <span class="b"><span></span><span></span><span></span><span></span><span></span><span></span></span>
-    <span class="c"><span></span><span></span><span></span><span></span><span></span><span></span></span>
-    <span class="d"><span></span><span></span><span></span><span></span><span></span><span></span></span>
-    <span class="e"><span></span><span></span><span></span><span></span><span></span><span></span></span>
-    <span class="f"><span></span><span></span><span></span><span></span><span></span><span></span></span>
-    <span class="g"><span></span><span></span><span></span><span></span><span></span><span></span></span><span></span>
-    <span class="h"><span></span><span></span><span></span><span></span><span></span><span></span></span>
-    <span class="i"><span></span><span></span><span></span><span></span><span></span><span></span></span>
-    <span class="j"><span></span><span></span><span></span><span></span><span></span><span></span></span>
-
-    <span class="k"><span></span><span></span><span></span><span></span><span></span><span></span></span>
-    <span class="l"><span></span><span></span><span></span><span></span><span></span><span></span></span>
-
-    <span class="m"><span></span><span></span><span></span><span></span><span></span><span></span></span>
-    <span class="n"><span></span><span></span><span></span><span></span><span></span><span></span></span>
-    <span class="o"><span></span><span></span><span></span><span></span><span></span><span></span></span>
-    <span class="p"><span></span><span></span><span></span><span></span><span></span><span></span></span>
-    <span class="q"><span></span><span></span><span></span><span></span><span></span><span></span></span>
-    <span class="r"><span></span><span></span><span></span><span></span><span></span><span></span></span>
-    <span class="s"><span></span><span></span><span></span><span></span><span></span><span></span></span>
-    <span class="t"><span></span><span></span><span></span><span></span><span></span><span></span></span>
-    <span class="u"><span></span><span></span><span></span><span></span><span></span><span></span></span>
-    <span class="v"><span></span><span></span><span></span><span></span><span></span><span></span></span>
-    <span class="w"><span></span><span></span><span></span><span></span><span></span><span></span></span>
-    <span class="x"><span></span><span></span><span></span><span></span><span></span><span></span></span>
-    <span class="y"><span></span><span></span><span></span><span></span><span></span><span></span></span>
-    <span class="z"><span></span><span></span><span></span><span></span><span></span><span></span></span>
+	<h1 class="maya_fontface">m</h1>
+	<h2 class="maya_fontface">aya</h2>
+	<p class="maya_fontface">abcdefghijklmnopqrstuvwxyz 1234567890 ,.!?</p>
 </body>
 </html>
