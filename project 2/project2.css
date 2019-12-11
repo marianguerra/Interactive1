@@ -2,12 +2,26 @@
 body { font-size: 8px; },
 {--baseKern: 5px; }
 
+h1 { font-size: 20px; }
+h2 { font-size: 4px; margin: -140px 0 0 70px; }
+h2 > span:nth-of-type(2) { bottom: -5px; position: relative; }
+p { font-size: 8px; margin-top: 20px; line-height: 20em; } /* line-height = leading */
+
 /* all letters and numbers OUTER spans */
 span[class] {
 position: relative;
 display: inline-block;
 vertical-align: bottom;
-margin: 0.15em 0.25em; /* first number is leading, second number is tracking */
+margin-top: 0;
+margin-right: 0;
+margin-bottom: 3em;
+margin-left: 0.25em; /* tracking */
+transform: scale(1, 1);
+transition: transform 0.25s;
+}
+
+span[class]:hover {
+	transform: scale(0.75, 1.25);
 }
 
 /* all letters and numbers INNER spans */
@@ -17,7 +31,7 @@ display: block;
 background: var(--font-color);
 }
 .space {
-width: 0.75em; /* word spacing */
+width: 5em; /* word spacing */
 }
 /* A ************************************************* A */
 .a {
@@ -199,6 +213,7 @@ height: 7em;
                 			height: 1em;
                 			bottom: 3em;
                 			right: 0em;
+
                 }
 
                 /* F ************************************************* F */
@@ -308,26 +323,27 @@ height: 7em;
 
 /* H ************************************************* H */
 .h {
-                		width: 7em;
-                		height: 10em;
+                		width: 5em;
+                		height: 12em;
+
                 }
                 .h span:nth-of-type(1) {
                 				width: 1em;
                 				height: 12em;
                 				bottom: 0em;
-                				right: 6em;
+                				left: 0em;
                 }
                 .h span:nth-of-type(2) {
                 				width: 5em;
                 				height: 1em;
                 				bottom: 5em;
-                        		right: 1em;
+                        		right: 0em;
                 }
                 .h span:nth-of-type(3) {
                 				width: 1em;
                 				height: 6em;
                 				bottom: 0em;
-                				right: 1em;
+                				right: 0em;
 
                 }
 
@@ -362,15 +378,15 @@ height: 7em;
   }
 .i span:nth-of-type(5){
 width: 1em;
-height: 1em;
+height: 2em;
 top: 1em;
 left: 2em;
 }
                 /* J ************************************************* J */
                 .j {
-                	margin-bottom: -5em !important;
+                	margin-bottom: -2em !important;
                 		width: 7em;
-                		height: 13em;
+                		height: 15em;
                 }
 
                 .j span:nth-of-type(1) {
@@ -402,26 +418,32 @@ left: 2em;
                 .j span:nth-of-type(5) {
                         width: 2em;
                         height: 1em;
-                        top: 0em;
+                        top: 2em;
                         right:  1em;
                 }
                 .j span:nth-of-type(6) {
                         width: 1em;
                         height: 2em;
-                        top: -1em;
+                        top: 1em;
                         right:  2em;
                 }
 
                 .j span:nth-of-type(7) {
                         width: 1em;
                         height: 2em;
-                        top: -1em;
-                        right:  3em;
+                        top: 1em;
+                        right:  0em;
+                }
+                .j span:nth-of-type(8) {
+                        width: 2em;
+                        height: 1em;
+                        top: 0em;
+                        right:  1em;
                 }
                 /* K ************************************************* K */
                 .k {
                 	width: 7em;
-                	height: 13em;
+                	height: 11em;
                 }
                 .k span:nth-of-type(1) {
                 		width: 1em;
@@ -461,15 +483,15 @@ left: 2em;
                 }
                 .k span:nth-of-type(7) {
                 		width: 1em;
-                		height: 2em;
+                		height: 3em;
                 		bottom: 7em;
-                		right: 2em;
+                		right: 1em;
                 }
                 .k span:nth-of-type(8) {
                     width: 2em;
                     height: 1em;
-                    top: 3em;
-                    right: 1em;
+                    top: 1em;
+                    right: 0em;
                 }
 
                 /* L ************************************************* L */
@@ -491,29 +513,30 @@ left: 2em;
                 .m {
                 	position: relative;
                 	display: inline-block;
-                    vertical-align: bottom;
-                	width: 8em;
+                    vertical-align: left;
+                	width: 9em;
                 	height: 7em;
+                  left: 0em;
                 }
                 .m span:nth-of-type(1) {
                 		width: 1em;
                 		height: 7em;
                 		bottom: 0em;
-                		right: 5em;
+                		right: 6em;
 
                 }
                 .m span:nth-of-type(2) {
                 		width: 3em;
                 		height: 1em;
                 		bottom: 6em;
-                		right: 5em;
+                		right: 6em;
                 }
 
                 .m span:nth-of-type(3) {
                 		width: 2em;
                 		height: 1em;
                 		bottom: 5em;
-                		right: 3em;
+                		right: 4em;
                 }
                 .m span:nth-of-type(4) {
                 		width: 1em;
@@ -522,24 +545,24 @@ left: 2em;
                 		right: 3em;
                 }
                 .m span:nth-of-type(5) {
-                		width: 3em;
+                		width: 2em;
                 		height: 1em;
                 		top: 1em;
-                		right: -1em;
+                		right: 1em;
                 }
 
                 .m span:nth-of-type(6) {
                 		width: 1em;
                 		height: 6em;
                 		bottom: 0em;
-                		right: -1em;
+                		right: 0em;
                 }
 
                 .m span:nth-of-type(7) {
-                	width: 3em;
+                	width: 1em;
                 	height: 1em;
                 	bottom: 5em;
-                	right: 3em;
+                	right: 8em;
                 }
                 .m span:nth-of-type(8) {
                 		width: 1em;
@@ -551,50 +574,51 @@ left: 2em;
                     width: 3em;
                     height: 1em;
                     top: 2em;
-                    right: 1em;
+                    right: 2em;
                 }
                 /* N ************************************************* N */
-                .n {
-                	position: relative;
-                	display: inline-block;
-                    vertical-align: bottom;
-                	width: 9em;
-                	height: 7em;
-                }
-                .n span:nth-of-type(1) {
-                		width: 1em;
-                		height: 7em;
-                		bottom: 0em;
-                		right: 5em;
-                }
+                  .n {
+                  	position: relative;
+                  	display: inline-block;
+                      vertical-align: bottom;
+                  	width: 7em;
+                  	height: 7em;
+                  }
+                  .n span:nth-of-type(1) {
+                  		width: 1em;
+                  		height: 7em;
+                  		bottom: 0em;
+                  		left: 2em;
+                  }
 
-                .n span:nth-of-type(2) {
-                		width: 4em;
-                		height: 1em;
-                		top: 1em;
-                		right: 1em;
-                }
-                .n span:nth-of-type(3) {
-                		width: 1em;
-                		height: 6em;
-                		top: 1em;
-                		right: 0em;
-                }
-                .n span:nth-of-type(4) {
-                		width: 2em;
-                		height: 1em;
-                		top: 0em;
-                		left: 1em;
-                }
-                .n span:nth-of-type(5) {
-                		width: 1em;
-                		height: 1em;
-                		top: 1em;
-                		left: 1em;
-                }
+                  .n span:nth-of-type(2) {
+                  		width: 4em;
+                  		height: 1em;
+                  		top: 1em;
+                  		right: 1em;
+                  }
+                  .n span:nth-of-type(3) {
+                  		width: 1em;
+                  		height: 6em;
+                  		top: 1em;
+                  		right: 0em;
+                  }
+                  .n span:nth-of-type(4) {
+                  		width: 2em;
+                  		height: 1em;
+                  		top: 0em;
+                  		left: 0em;
+                  }
+                  .n span:nth-of-type(5) {
+                  		width: 1em;
+                  		height: 1em;
+                  		top: 1em;
+                  		left: 0em;
+                  }
+
                 /* O ************************************************* O */
                 .o {
-                	width: 6em;
+                	width: 7em;
                 	height: 6em;
                 }
                 .o span:nth-of-type(1) {
@@ -617,7 +641,7 @@ left: 2em;
                 }
 
                 .o span:nth-of-type(4) {
-                		width: 4em;
+                		width: 5em;
                 		height: 1em;
                 		bottom: 0em;
                 		right: 0em;
@@ -631,19 +655,19 @@ left: 2em;
                 .o span:nth-of-type(6) {
                 		width: 1em;
                 		bottom: 3em;
-                		left: 3em;
+                		left: 4em;
                 }
                 /* P ************************************************* P */
                 .p {
-                  margin-bottom: -3em !important;
-                	width: 10em;
-                	height: 10em;
+                  margin-bottom: -2em !important;
+                	width: 9em;
+                	height: 11em;
                 }
                 .p span:nth-of-type(1) {
                 		width: 1em;
                 		height: 10em;
                 		top: 0em;
-                		left: 3em;
+                		left: 2em;
                 }
                 .p span:nth-of-type(2) {
                 		width: 6em;
@@ -655,12 +679,12 @@ left: 2em;
                 		width: 1em;
                 		height: 6em;
                 		top: 0em;
-                		left: 9em;
+                		left: 8em;
                 }
                 .p span:nth-of-type(4) {
                 		width: 4em;
                 		height: 1em;
-                		bottom: 4em;
+                		bottom: 5em;
                 		right: 1em;
                 }
                 .p span:nth-of-type(5) {
@@ -669,116 +693,113 @@ left: 2em;
                 		width: 1em;
                 		height: 3em;
                 		bottom: 5em;
-                		left: 5em;
+                		left: 4em;
                 		background: var(--font-color);
                 }
                 .p span:nth-of-type(6) {
                 		width: 1em;
                 		height: 1em;
                 		bottom: 7em;
-                		left: 6em;
+                		left: 5em;
                 }
 
                 .p span:nth-of-type(7) {
                 		width: 3em;
                 		height: 1em;
-                		bottom: -1em;
+                		bottom: 0em;
                 		right: 6em;
                 }
                 .p span:nth-of-type(8) {
                 		width: 1em;
                 		height: 1em;
-                		bottom: 0em;
+                		bottom: 1em;
                 		right: 8em;
                 }
                 /* Q ************************************************* Q */
                 .q {
-                  position: relative;
-                  display: inline-block;
-                  vertical-align: bottom;
-                	margin-bottom: -3em !important;
+                	margin-bottom: -2em !important;
                 	width: 9em;
                 	height: 11em;
                 }
                 .q span:nth-of-type(1) {
                 width: 1em;
                 height: 6em;
-                right: 7em;
-                top:  1em;
+                right: 8em;
+                top:  0em;
                 }
                 .q span:nth-of-type(2) {
-                width: 7em;
+                width: 6em;
                 height: 1em;
-                right: 1em;
-                top: 1em;
+                right: 2em;
+                top: 0em;
                 }
                 .q span:nth-of-type(3) {
                 width: 4em;
                 height: 1em;
-                right: 3em;
-                bottom: 4em;
+                right: 4em;
+                bottom: 5em;
                 }
                 .q span:nth-of-type(4) {
                 width: 1em;
-                height: 3em;
-                right: 3em;
-                bottom:4em;
+                height: 2em;
+                right: 4em;
+                bottom: 5em;
                 }
                 .q span:nth-of-type(5) {
                 width: 2em;
                 height: 1em;
-                right: 3em;
+                right: 4em;
                 bottom: 7em;
                 }
                 .q span:nth-of-type(6) {
                 width: 1em;
                 height: 10em;
-                right: 1em;
+                right: 2em;
                 bottom: 0em;
                 }
                 .q span:nth-of-type(7) {
                 width: 3em;
                 height: 1em;
-                right: -1em;
-                bottom: -1em;
+                right: 0em;
+                bottom: 0em;
                 }
                 .q span:nth-of-type(8) {
                 width: 1em;
                 height: 1em;
-                right: -1em;
-                bottom: 0em;
+                right: 0em;
+                bottom: 1em;
                 }
                 /* R ************************************************* R */
                 .r {
                 	position: relative;
                 	display: inline-block;
-                    vertical-align: bottom;
-                	width: 9em;
-                	height: 11em;
+                  vertical-align: bottom;
+                	width: 8em;
+                	height: 7em;
                 }
                 .r span:nth-of-type(1) {
                 width: 1em;
                 height: 7em;
-                left: 3em;
+                left: 2em;
                 bottom: 0em;
                 }
                 .r span:nth-of-type(2) {
                 width: 5em;
                 height: 1em;
-                left: 4em;
-                top: 5em;
+                left: 3em;
+                top: 1em;
                 }
                 .r span:nth-of-type(3) {
                 width: 2em;
                 height: 1em;
-                left: 1em;
-                top: 4em;
+                left: 0em;
+                top: 0em;
                 }
                 .r span:nth-of-type(4) {
                 width: 1em;
                 height: 1em;
-                left: 1em;
-                top: 5em;
+                left: 0em;
+                top: 1em;
                 }
                 .r span:nth-of-type(5) {
                   width: 1em;
@@ -791,44 +812,44 @@ left: 2em;
                 	position: relative;
                 	display: inline-block;
                     vertical-align: bottom;
-                	width: 7em;
-                	height: 11em;
+                	width: 6em;
+                	height: 7em;
                 }
                 .s span:nth-of-type(1) {
-                width: 5em;
+                width: 6em;
                 height: 1em;
-                left: 1em;
-                top: 5em;
+                left: 0em;
+                top: 1em;
                 }
                 .s span:nth-of-type(2) {
                 width: 1em;
                 height: 1em;
-                right: 1em;
+                right:  0em;
                 bottom: 4em;
                 }
                 .s span:nth-of-type(3) {
                 width: 1em;
                 height: 2em;
-                left: 1em;
-                top: 6em;
+                left: 0em;
+                top: 2em;
                 }
                 .s span:nth-of-type(4) {
                 width: 5em;
                 height: 1em;
-                left: 1em;
-                top: 8em;
+                left: 0em;
+                top: 4em;
                 }
                 .s span:nth-of-type(5) {
                 width: 1em;
-                height: 2em;
-                right: 1em;
-                top: 9em;
+                height: 3em;
+                right: 0em;
+                top: 4em;
                 }
                 .s span:nth-of-type(6) {
                 width: 5em;
                 height: 1em;
                 right: 1em;
-                top: 10em;
+                top: 6em;
                 }
                 /* T ************************************************** T */
                 .t {
@@ -867,7 +888,7 @@ left: 2em;
                       	position: relative;
                       	display: inline-block;
                         vertical-align: bottom;
-                      	width: 6em;
+                      	width: 8em;
                       	height: 6em;
                  }
                 .u span:nth-of-type(1) {
@@ -884,13 +905,13 @@ left: 2em;
 .u span:nth-of-type(3) {
                   width: 1em;
                   height: 6em;
-                  right: 0em;
+                  right: 2em;
                   bottom: 0em;
 }
 .u span:nth-of-type(4) {
                   width: 1em;
                   height: 1em;
-                  right: -2em;
+                  right: 0em;
                   bottom: 1em;
 }
 /* V ************************************************* V */
@@ -899,37 +920,37 @@ left: 2em;
                   display: inline-block;
                   vertical-align: bottom;
                   width: 9em;
-                  height: 7em;
+                  height: 6em;
                 }
 
 .v span:nth-of-type(1) {
                   width: 3em;
                   height: 1em;
-                  right: 5em;
+                  right: 6em;
                   bottom: 5em;
 }
                 .v span:nth-of-type(2) {
                   width: 1em;
                   height: 6em;
-                  right: 5em;
+                  right: 6em;
                   bottom: 0em;
                 }
                 .v span:nth-of-type(3) {
                   width: 4em;
                   height: 1em;
-                  left: 4em;
+                  left: 3em;
                   bottom: 0em;
                 }
                 .v span:nth-of-type(4) {
                   width: 1em;
                   height: 6em;
-                  left: 7em;
+                  left: 6em;
                   bottom: 0em;
                 }
                 .v span:nth-of-type(5) {
                   width: 3em;
                   height: 1em;
-                  left: 7em;
+                  left: 6em;
                   bottom: 5em;
                 }
                 /* W ************************************************* W */
@@ -937,32 +958,32 @@ left: 2em;
                   position: relative;
                   display: inline-block;
                   vertical-align: bottom;
-                  width: 12em;
+                  width: 11em;
                   height: 6em;
                 }
                 .w span:nth-of-type(1) {
                   width: 1em;
                   height: 6em;
-                  left: 2em;
+                  left: 1em;
                   bottom: 0em;
                 }
                 .w span:nth-of-type(2) {
                   width: 2em;
                   height: 1em;
                   bottom: 0em;
-                  left: 3em;
+                  left: 2em;
                 }
                 .w span:nth-of-type(3) {
                     width: 1em;
                     height: 3em;
                     bottom: 0em;
-                    left: 5em;
+                    left: 4em;
                   }
                  .w span:nth-of-type(4) {
                         width: 1em;
                         height: 3em;
                         bottom: 0em;
-                        left: 7em;
+                        left: 6em;
                 }
                 .w span:nth-of-type(5) {
                       width: 4em;
@@ -981,6 +1002,18 @@ left: 2em;
                       height: 6em;
                       bottom: 0em;
                       right: 1em;
+                }
+                .w span:nth-of-type(8) {
+                      width: 1em;
+                      height: 1em;
+                      bottom: 5em;
+                      left: 0em;
+                }
+                .w span:nth-of-type(9) {
+                      width: 1em;
+                      height: 1em;
+                      top: 0em;
+                      right: 0em;
                 }
                 /* X ************************************************* X */
                 .x {
@@ -1072,9 +1105,9 @@ left: 2em;
 
                 /* Y ************************************************* Y */
                 .y {
-                  margin-bottom: -3em !important;
+                  margin-bottom: 0em !important;
                   width: 9em;
-                  height: 11em;
+                  height: 9em;
                 }
                 .y span:nth-of-type(1) {
                   width: 1em;
@@ -1086,13 +1119,13 @@ left: 2em;
                   width: 2em;
                   height: 1em;
                   left: 1em;
-                  top: 1em;
+                  top: 0em;
                 }
                 .y span:nth-of-type(3) {
                   width: 1em;
                   height: 3em;
                   left: 0em;
-                  top: 1em;
+                  top: 0em;
                 }
                 .y span:nth-of-type(4) {
                   width: 3em;
@@ -1122,11 +1155,11 @@ left: 2em;
                   width: 3em;
                   height: 1em;
                   right: 0em;
-                  top: 1em;
+                  top: 0em;
                 }
                 .y span:nth-of-type(9) {
                   width: 1em;
-                  height: 3em;
+                  height: 2em;
                   right: 0em;
                   top: 1em;
                 }
@@ -1377,6 +1410,13 @@ height: 1em;
 bottom: 3em;
 left: 0em;
 }
+
+._5 span:nth-of-type(8){
+width: 1em;
+height: 2em;
+bottom: 2em;
+left: 3em;
+}
 ._6{
   width: 6em;
   height: 10em;
@@ -1562,13 +1602,166 @@ left: 0em;
   left: 1em;
   bottom: 0em;
 }
-.period {
-  height: 4em;
-  width: 4em;
+.question{
+  height: 10em;
+  width: 6em;
+}
+.question span:nth-of-type(1) {
+height: 1em;
+width: 6em;
+top: 0em;
+left: 0em;
+}
+.question span:nth-of-type(2) {
+height: 3em;
+width: 1em;
+top: 0em;
+right: 0em;
+}
+.question span:nth-of-type(3) {
+height: 1em;
+width: 5em;
+top: 3em;
+right: 0em;
+}
+.question span:nth-of-type(4) {
+height: 2em;
+width: 1em;
+top: 4em;
+right: 4em;
+}
+.question span:nth-of-type(5) {
+height: 2em;
+width: 1em;
+bottom: 0em;
+left: 0em;
+}
+.question span:nth-of-type(6) {
+height: 1em;
+width: 2em;
+bottom: 0em;
+left: 0em;
+}
+.question span:nth-of-type(7) {
+height: 2em;
+width: 1em;
+bottom: 0em;
+left: 2em;
+}
+.question span:nth-of-type(8) {
+height: 1em;
+width: 2em;
+bottom: 2em;
+left: 0em;
+}
+
+.exclamation{
+  height: 10em;
+  width: 3em;
+}
+.exclamation span:nth-of-type(1) {
+height: 6em;
+width: 1em;
+top: 0em;
+left: 1em;
+}
+.exclamation span:nth-of-type(2) {
+height: 2em;
+width: 1em;
+right: 0em;
+bottom: 0em;
+}
+.exclamation span:nth-of-type(3) {
+height: 1em;
+width: 2em;
+bottom: 0em;
+left: 0em;
+}
+.exclamation span:nth-of-type(4) {
+height: 2em;
+width: 1em;
+bottom: 0em;
+left: 0em;
+}
+.exclamation span:nth-of-type(5) {
+height: 1em;
+width: 2em;
+bottom: 2em;
+right: 1em;
+}
+.period{
+  height: 3em;
+  width: 3em;
 }
 .period span:nth-of-type(1) {
+height: 3em;
+width: 1em;
+top: 0em;
+left: 0em;
+}
+.period span:nth-of-type(2) {
 height: 2em;
+width: 1em;
+top: 0em;
+right: 0em;
+}
+.period span:nth-of-type(3) {
+height: 1em;
+width: 3em;
+bottom: 0em;
+right: 0em;
+}
+.period span:nth-of-type(4) {
+height: 1em;
+width: 1em;
+bottom: 2em;
+right: 1em;
+}
+.comma{
+  margin-bottom: 0em !important;
+  height: 5em;
+  width: 3em;
+}
+.comma span:nth-of-type(1) {
+height: 1em;
+width: 3em;
+bottom: 2em;
+right: 0em;
+}
+.comma span:nth-of-type(2) {
+height: 2em;
+width: 1em;
+bottom: 2em;
+right: 0em;
+}
+.comma span:nth-of-type(3) {
+height: 2em;
+width: 1em;
+bottom: 2em;
+left: 0em;
+}
+.comma span:nth-of-type(4) {
+height: 1em;
 width: 2em;
-top: 1em;
-left: 1em;
+top: 0em;
+left: 0em;
+}
+.comma span:nth-of-type(5) {
+height: 2em;
+width: 1em;
+bottom: 0em;
+right: 0em;
+}
+
+
+/* Standard syntax */
+@keyframes blink-pulse {
+  0% {
+    transform: scale(1);
+    background-color: pink;
+  }
+  100% {
+    transform: scale(1.15);
+    background-color: yellow;
+  }
 }

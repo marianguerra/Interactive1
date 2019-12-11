@@ -1,0 +1,28 @@
+html{
+scroll-behavior: smooth;
+}
+#navigation {
+  position: sticky;
+  background-color: green;
+  top: 0px;
+  padding-left: 100px;
+  display: block;
+  align-self: center;
+  height: 30px;
+  width: 100%;
+}
+
+li{
+  display: inline;
+  padding-left: 10px;
+}
+body {
+  background: white;
+  font-family: 'Roboto', sans-serif;
+
+}
+#container {
+  color: black;
+      background-color: inherit;
+      padding: 1em 2em;
+      body{ margin:0 auto; }
