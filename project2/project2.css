@@ -1,11 +1,19 @@
 :root { --font-color: black; }
-body { font-size: 8px; },
+body { font-size: 8px; letter-spacing: 0.5em; },
 {--baseKern: 5px; }
 
-h1 { font-size: 20px; }
-h2 { font-size: 4px; margin: -140px 0 0 70px; }
-h2 > span:nth-of-type(2) { bottom: -5px; position: relative; }
-p { font-size: 8px; margin-top: 20px; line-height: 20em; } /* line-height = leading */
+
+:root { --font-color: red; }
+body { width: 100%; margin: 100px auto; }
+h1, h2 { display: inline-block; margin-bottom: 50px; }
+h1 { font-size: 3vw; }
+h2 { font-size: 1.25vw; }
+h3 { font-size: 1vw; }
+p { font-size: 6px; }
+.word { display: inline; white-space: nowrap; }
+figure { display: inline-block; margin: 7em 1em; line-height: 12em; }
+figure > * { display: inline; }
+
 
 /* all letters and numbers OUTER spans */
 span[class] {
@@ -14,7 +22,6 @@ display: inline-block;
 vertical-align: bottom;
 margin-top: 0;
 margin-right: 0;
-margin-bottom: 3em;
 margin-left: 0.25em; /* tracking */
 transform: scale(1, 1);
 transition: transform 0.25s;
@@ -33,6 +40,7 @@ background: var(--font-color);
 .space {
 width: 5em; /* word spacing */
 }
+
 /* A ************************************************* A */
 .a {
 width: 6em;
