@@ -132,7 +132,7 @@ html{
       transform: translate(-110%, 420%);
     }
     #computer{
-      position: sticky;
+      position: absolute;
       height: 150%;
       width: 102%;
     }
